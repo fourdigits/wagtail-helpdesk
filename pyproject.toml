@@ -1,8 +1,0 @@
-[tool.isort]
-profile = "black"
-
-[tool.pytest.ini_options]
-DJANGO_SETTINGS_MODULE = "wagtail_helpdesk.test.settings"
-addopts = [
-	"--cov",
-]
